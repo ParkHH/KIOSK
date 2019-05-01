@@ -21,7 +21,7 @@
 <h2><b>2. Food_box_info</b></h2>
 <img src="https://blogfiles.pstatic.net/MjAxOTA1MDJfODgg/MDAxNTU2NzI0NDIzMDQ2.SpH101HwkxlNyKNaNOVjA2EqFZjJR24wF4NW8HrvaXwg.VoHyGOb_qsRJUzKfBds0CiArdBFfvQ-dez0uQ3uyDWAg.PNG.phh_92/foodbox_product_info.png?type=w2" width="450px"/>
 <br>
-- 표현된 상품 박스 Component 에 MouseOver Event 를 주어 해당 상품 정보를 표현하는 Component 를 Overlay 되게 한다.
+- 1 에서 표현된 상품 박스 Component 에 MouseOver Event 를 주어 해당 상품 정보를 표현하는 Component 를 Overlay 되게 한다.
 <br><br><br><br>
 <h2><b>3. Product_info_window</b></h2>
 <img src="https://blogfiles.pstatic.net/MjAxOTA1MDJfODcg/MDAxNTU2NzIzNzMzMzA1.MOtN2_S7jyPm2s1sVXJOAp04uar7tb7r4Gs3xG60rJAg.yV6GJcKT1T0ExQ7KkLQV2xXUWDnzHwL7NUl1u2OATWAg.PNG.phh_92/selected_box.png?type=w2" width="450px"/>
