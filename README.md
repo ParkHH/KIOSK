@@ -27,6 +27,6 @@
 - 본 Component 에서는 선택한 상품에 대한 상세 주문을 설정 할 수 있다.<br>
 - 선택할 수 있는 세부 주문 설정은 <b>상품종류, 음료, 사이드 메뉴</b> 이다.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> 초기값은 단품메뉴이며 단품메뉴일 경우에는 음료와 사이드메뉴를 선택할 수 없다.<br>
-- 세트메뉴, 라지세트 를 선택할 경우 상품 가격은 변경되며 음료, 사이드 메뉴 선택이 가능해진다.
+- 세트메뉴, 라지세트 를 선택할 경우 상품 가격은 변경되며 음료, 사이드 메뉴 선택이 가능해진다.<br><br>
 <img src="https://blogfiles.pstatic.net/MjAxOTA1MDJfMjgz/MDAxNTU2NzIzNzMzODYw.1i46QOfJKUhd1IZjds6iJjshdwo8I6M1gq9qqz4cUWEg.4v8EHcZEB1kXh5cjrn5Oy_5VD3U0DS7SwvgzqwXgcXQg.PNG.phh_92/selected_box2.png?type=w2" width="450px"/>
 <br><br><br><br>
