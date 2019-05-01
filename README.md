@@ -31,6 +31,12 @@
 <img src="https://blogfiles.pstatic.net/MjAxOTA1MDJfMjgz/MDAxNTU2NzIzNzMzODYw.1i46QOfJKUhd1IZjds6iJjshdwo8I6M1gq9qqz4cUWEg.4v8EHcZEB1kXh5cjrn5Oy_5VD3U0DS7SwvgzqwXgcXQg.PNG.phh_92/selected_box2.png?type=w2" width="450px"/>
 <br>
 - 상세 주문 선택 완료후 장바구니에 담기 버튼 Click 시 장바구니 역할을 하는 List 에 담긴다.
+- 이후 아래 이미지와 같이 결제 진행 우측에 장바구니에 담긴 상품의 갯수가 표시된다.
 <br><br>
 <img src="https://blogfiles.pstatic.net/MjAxOTA1MDJfMjY4/MDAxNTU2NzIzNzI5NDky.uTEdLkDABSSCRB1_0UkL2betT5noWn0Y-9882oBjxzwg.qoZO4t-jZ0bmAsf5NaFH_2dXWoSafhNHZvngBXVucxEg.PNG.phh_92/cart.png?type=w2" width="450px"/>
+<br>
+- 결제 진행하기 버튼 클릭시 Click 이벤트에 의해 상품 결제화면으로 이동한다.
+- 이때 결제 진행하기 버튼은 장바구니 List 의 size() 가 0 일 경우 결제화면으로 이동할수 없으며 장바구니에 담긴 상품이 없습니다. 라는 안내문구가 출력된다.
 <br><br><br><br>
+<b>4. PaymentWindow</b>
+<img src="https://blogfiles.pstatic.net/MjAxOTA1MDJfMzIg/MDAxNTU2NzIzNzMyNjc3.2StIBHqeCzdNm0cMvIjKRPpLKcc1stiWa0BNxc22QYgg.FA8tQqLGAt_mfC4OGxbPOV-HouwumYNXxYfJ9sLGKv8g.PNG.phh_92/payment_window.png?type=w2" width="450px"/>
