@@ -14,13 +14,15 @@
 <br>
 - DB 에 등록되어있는 상품정보를 이미지로 표현하는 페이지
 - 상품 이미지는 Eclipse classpath 로 등록한 resource folder 내부에 있는 Image 로 출력함
+- 상단 이미지는 광고 배너를 구현한것으로써 Thread 에 의해 5000ms 가 지나면 다른 광고 사진으로 바뀌며 순환됨
+- 또한 상단 이미지 클릭시 링크 이벤트를 동작시켜 맥도날드 홈페이지로 이동을 하게됨
 <br><br><br><br>
 <h2><b>2. Food_box_info</b></h2>
 <img src="https://blogfiles.pstatic.net/MjAxOTA1MDJfODgg/MDAxNTU2NzI0NDIzMDQ2.SpH101HwkxlNyKNaNOVjA2EqFZjJR24wF4NW8HrvaXwg.VoHyGOb_qsRJUzKfBds0CiArdBFfvQ-dez0uQ3uyDWAg.PNG.phh_92/foodbox_product_info.png?type=w2" width="450px"/>
 <br>
 - 표현된 상품 박스 Component 에 MouseOver Event 를 주어 해당 상품 정보를 표현하는 Component 를 Overlay 되게 한다.
 <br><br><br><br>
-<b>3. Product_info_window</b>
+<h2><b>3. Product_info_window</b></h2>
 <img src="https://blogfiles.pstatic.net/MjAxOTA1MDJfODcg/MDAxNTU2NzIzNzMzMzA1.MOtN2_S7jyPm2s1sVXJOAp04uar7tb7r4Gs3xG60rJAg.yV6GJcKT1T0ExQ7KkLQV2xXUWDnzHwL7NUl1u2OATWAg.PNG.phh_92/selected_box.png?type=w2" width="450px"/>
 <br>
 - 위 2번에서 상품 이미지를 클릭시 Component 에 부여한 MouseClick Event 가 동작하여 본 Component 가 출력된다.<br>
@@ -38,5 +40,8 @@
 - 결제 진행하기 버튼 클릭시 Click 이벤트에 의해 상품 결제화면으로 이동한다.
 - 이때 결제 진행하기 버튼은 장바구니 List 의 size() 가 0 일 경우 결제화면으로 이동할수 없으며 장바구니에 담긴 상품이 없습니다. 라는 안내문구가 출력된다.
 <br><br><br><br>
-<b>4. PaymentWindow</b>
-<img src="https://blogfiles.pstatic.net/MjAxOTA1MDJfMzIg/MDAxNTU2NzIzNzMyNjc3.2StIBHqeCzdNm0cMvIjKRPpLKcc1stiWa0BNxc22QYgg.FA8tQqLGAt_mfC4OGxbPOV-HouwumYNXxYfJ9sLGKv8g.PNG.phh_92/payment_window.png?type=w2" width="450px"/>
+<h2><b>4. PaymentWindow</b></h2>
+<img src="https://blogfiles.pstatic.net/MjAxOTA1MDJfMzIg/MDAxNTU2NzIzNzMyNjc3.2StIBHqeCzdNm0cMvIjKRPpLKcc1stiWa0BNxc22QYgg.FA8tQqLGAt_mfC4OGxbPOV-HouwumYNXxYfJ9sLGKv8g.PNG.phh_92/payment_window.png?type=w2" width="450px"/><br>
+- 결제 목록에는 장바구니 List 에 담긴 선택 상품 정보가 출력되며 결제목록 하단에는 장바구니에 담긴 상품의 가격정보에 따른 총 결제 금액이 표시된다.<br>
+- 이후 결제 금액 하단에는 결제 수단을 선택하는 Component 가 존재하며 왼쪽은 신용카드 결제를 우측은 현금 결제를 나타낸다.<br>
+- 각 Component 를 클릭했을 경우 선택 정보를 담아 DB 의 결제 정보 기록에 사용한다.<br>
