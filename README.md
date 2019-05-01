@@ -12,10 +12,10 @@
 <h2><b>1. Client_Main</b></h2>
 <img src="https://blogfiles.pstatic.net/MjAxOTA1MDJfMjUx/MDAxNTU2NzIzNzMwMjY5.WNKYUqHr6QekYk2byX1KVSl7Nb9b3dg_Ky2YNUAcz9gg.oWK-SOlnMrNSCRRL0VMNDaZUI_yhghKeovpJqWpOgAog.PNG.phh_92/Client_Main.png?type=w2" width="450px"/>
 <br>
-- DB 에 등록되어있는 상품정보를 이미지로 표현하는 페이지<br>
-- 상품 이미지는 Eclipse classpath 로 등록한 resource folder 내부에 있는 Image 로 출력함<br>
-- 상단 이미지는 광고 배너를 구현한것으로써 Thread 에 의해 5000ms 가 지나면 다른 광고 사진으로 바뀌며 순환됨<br>
-- 또한 상단 이미지 클릭시 링크 이벤트를 동작시켜 맥도날드 홈페이지로 이동을 하게됨<br><br>
+> DB 에 등록되어있는 상품정보를 이미지로 표현하는 페이지<br>
+> 상품 이미지는 Eclipse classpath 로 등록한 resource folder 내부에 있는 Image 로 출력함<br>
+> 상단 이미지는 광고 배너를 구현한것으로써 Thread 에 의해 5000ms 가 지나면 다른 광고 사진으로 바뀌며 순환됨<br>
+> 또한 상단 이미지 클릭시 링크 이벤트를 동작시켜 맥도날드 홈페이지로 이동을 하게됨<br><br>
 <img src="https://blogfiles.pstatic.net/MjAxOTA1MDJfMTk2/MDAxNTU2NzIzNzMyMzIz.rv9Yc_PM_sW78prWLJQ-t4CnrY_bjL9i-vwMMbw4mQMg.JUvrBpQvURgR1mFDiCTZPEZQ0RvFP_TWLiS74IkPm0og.PNG.phh_92/macdonaldHompage.png?type=w2" width="450px"/>
 <br><br><br><br>
 <h2><b>2. Food_box_info</b></h2>
@@ -45,11 +45,11 @@
 <img src="https://blogfiles.pstatic.net/MjAxOTA1MDJfMzIg/MDAxNTU2NzIzNzMyNjc3.2StIBHqeCzdNm0cMvIjKRPpLKcc1stiWa0BNxc22QYgg.FA8tQqLGAt_mfC4OGxbPOV-HouwumYNXxYfJ9sLGKv8g.PNG.phh_92/payment_window.png?type=w2" width="450px"/><br>
 - 결제 목록에는 장바구니 List 에 담긴 선택 상품 정보가 출력되며 결제목록 하단에는 장바구니에 담긴 상품의 가격정보에 따른 총 결제 금액이 표시된다.<br>
 - 이후 결제 금액 하단에는 결제 수단을 선택하는 Component 가 존재하며 왼쪽은 신용카드 결제를 우측은 현금 결제를 나타낸다.<br>
-- 각 Component 를 클릭했을 경우 선택 정보를 담아 DB 의 결제 정보 기록에 사용한다.<br>
+- 각 Component 를 클릭했을 경우 선택 정보를 담아 DB 의 결제 정보 기록에 사용한다.<br><br>
 
 *신용카드 결제 화면
 > - Thread 를 이용하여 카드결제와 같은 효과를 줌
 > - KeyCode 를 이용한 KeyEvent 를 이용하여 Thread 동작
 
-* 현금 결제 화면
+*현금 결제 화면
 > - KeyEvent 를 통해 현금 투입 효과를 주며 결제는 투입금액이 결제금액을 넘어설때 결제진행이 가능하다.
