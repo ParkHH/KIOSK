@@ -7,15 +7,15 @@
 > 3) OracleXE
 
 #### ● 구현 UI
-## Client 
+# Client 
 <hr/>
-<b>1. Client_Main</b>
+<h2><b>1. Client_Main</b></h2>
 <img src="https://blogfiles.pstatic.net/MjAxOTA1MDJfMjUx/MDAxNTU2NzIzNzMwMjY5.WNKYUqHr6QekYk2byX1KVSl7Nb9b3dg_Ky2YNUAcz9gg.oWK-SOlnMrNSCRRL0VMNDaZUI_yhghKeovpJqWpOgAog.PNG.phh_92/Client_Main.png?type=w2" width="450px"/>
 <br>
 - DB 에 등록되어있는 상품정보를 이미지로 표현하는 페이지
 - 상품 이미지는 Eclipse classpath 로 등록한 resource folder 내부에 있는 Image 로 출력함
 <br><br><br><br>
-<b>2. Food_box_info</b>
+<h2><b>2. Food_box_info</b></h2>
 <img src="https://blogfiles.pstatic.net/MjAxOTA1MDJfODgg/MDAxNTU2NzI0NDIzMDQ2.SpH101HwkxlNyKNaNOVjA2EqFZjJR24wF4NW8HrvaXwg.VoHyGOb_qsRJUzKfBds0CiArdBFfvQ-dez0uQ3uyDWAg.PNG.phh_92/foodbox_product_info.png?type=w2" width="450px"/>
 <br>
 - 표현된 상품 박스 Component 에 MouseOver Event 를 주어 해당 상품 정보를 표현하는 Component 를 Overlay 되게 한다.
