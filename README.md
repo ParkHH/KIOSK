@@ -16,7 +16,7 @@
 - 상품 이미지는 Eclipse classpath 로 등록한 resource folder 내부에 있는 Image 로 출력함
 <br><br><br><br>
 <b>2. Food_box_info</b>
-<img src="https://blogfiles.pstatic.net/MjAxOTA1MDJfODgg/MDAxNTU2NzI0NDIzMDQ2.SpH101HwkxlNyKNaNOVjA2EqFZjJR24wF4NW8HrvaXwg.VoHyGOb_qsRJUzKfBds0CiArdBFfvQ-dez0uQ3uyDWAg.PNG.phh_92/foodbox_product_info.png?type=w2"/>
+<img src="https://blogfiles.pstatic.net/MjAxOTA1MDJfODgg/MDAxNTU2NzI0NDIzMDQ2.SpH101HwkxlNyKNaNOVjA2EqFZjJR24wF4NW8HrvaXwg.VoHyGOb_qsRJUzKfBds0CiArdBFfvQ-dez0uQ3uyDWAg.PNG.phh_92/foodbox_product_info.png?type=w2" width="450px"/>
 <br>
 - 표현된 상품 박스 Component 에 MouseOver Event 를 주어 해당 상품 정보를 표현하는 Component 를 Overlay 되게 한다.
 <br><br><br><br>
@@ -29,4 +29,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> 초기값은 단품메뉴이며 단품메뉴일 경우에는 음료와 사이드메뉴를 선택할 수 없다.<br>
 - 세트메뉴, 라지세트 를 선택할 경우 상품 가격은 변경되며 음료, 사이드 메뉴 선택이 가능해진다.<br><br>
 <img src="https://blogfiles.pstatic.net/MjAxOTA1MDJfMjgz/MDAxNTU2NzIzNzMzODYw.1i46QOfJKUhd1IZjds6iJjshdwo8I6M1gq9qqz4cUWEg.4v8EHcZEB1kXh5cjrn5Oy_5VD3U0DS7SwvgzqwXgcXQg.PNG.phh_92/selected_box2.png?type=w2" width="450px"/>
+<br>
+- 상세 주문 선택 완료후 장바구니에 담기 버튼 Click 시 장바구니 역할을 하는 List 에 담긴다.
+<br><br>
+<img src="https://blogfiles.pstatic.net/MjAxOTA1MDJfMjY4/MDAxNTU2NzIzNzI5NDky.uTEdLkDABSSCRB1_0UkL2betT5noWn0Y-9882oBjxzwg.qoZO4t-jZ0bmAsf5NaFH_2dXWoSafhNHZvngBXVucxEg.PNG.phh_92/cart.png?type=w2" width="450px"/>
 <br><br><br><br>
