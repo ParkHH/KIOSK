@@ -7,4 +7,4 @@
 > 3) OracleXE
 
 #### ● 구현 UI
-<img src="https://blogfiles.pstatic.net/MjAxOTA1MDJfMjUx/MDAxNTU2NzIzNzMwMjY5.WNKYUqHr6QekYk2byX1KVSl7Nb9b3dg_Ky2YNUAcz9gg.oWK-SOlnMrNSCRRL0VMNDaZUI_yhghKeovpJqWpOgAog.PNG.phh_92/Client_Main.png?type=w2" style="width:150px"/>
+<img src="https://blogfiles.pstatic.net/MjAxOTA1MDJfMjUx/MDAxNTU2NzIzNzMwMjY5.WNKYUqHr6QekYk2byX1KVSl7Nb9b3dg_Ky2YNUAcz9gg.oWK-SOlnMrNSCRRL0VMNDaZUI_yhghKeovpJqWpOgAog.PNG.phh_92/Client_Main.png?type=w2" style="width:50px"/>
