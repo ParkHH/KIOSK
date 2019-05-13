@@ -13,7 +13,7 @@
 <img src="https://blogfiles.pstatic.net/MjAxOTA1MDJfMjUx/MDAxNTU2NzIzNzMwMjY5.WNKYUqHr6QekYk2byX1KVSl7Nb9b3dg_Ky2YNUAcz9gg.oWK-SOlnMrNSCRRL0VMNDaZUI_yhghKeovpJqWpOgAog.PNG.phh_92/Client_Main.png?type=w2" width="450px"/>
 <br>
 > DB 에 등록되어있는 상품정보를 이미지로 표현하는 페이지<br>
-> 상품 이미지는 Eclipse classpath 로 등록한 resource folder 내부에 있는 Image 로 출력함<br>
+> 상품 이미지는 classpath 로 등록한 resource folder 내부에 있는 Image 로 출력함<br>
 > 상단 이미지는 광고 배너를 구현한것으로써 Thread 에 의해 5000ms 가 지나면 다른 광고 사진으로 바뀌며 순환됨<br>
 > 또한 상단 이미지 클릭시 링크 이벤트를 동작시켜 맥도날드 홈페이지로 이동을 하게됨<br><br>
 <img src="https://blogfiles.pstatic.net/MjAxOTA1MDJfMTk2/MDAxNTU2NzIzNzMyMzIz.rv9Yc_PM_sW78prWLJQ-t4CnrY_bjL9i-vwMMbw4mQMg.JUvrBpQvURgR1mFDiCTZPEZQ0RvFP_TWLiS74IkPm0og.PNG.phh_92/macdonaldHompage.png?type=w2" width="450px"/>
